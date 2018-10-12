@@ -61,7 +61,7 @@
 			event.preventDefault()
 			document.getElementById("answer").innerHTML = "Well, we dont think you need to tip the waiters, unless you want to"
 			document.getElementById("resetBtn").style.display = "inline"
-			// document.getElementById("submitBtn").style.display = "none"
+			document.getElementById("submitBtn").style.display = "none"
 		}
 
 		if(input.value > 50000 && peopleInput.value == 1 && service == "great"){

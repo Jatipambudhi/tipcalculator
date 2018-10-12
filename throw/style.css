@@ -100,20 +100,6 @@ input[type=text]::placeholder {
 	transition: background 0.1s ease-out;
 	cursor: pointer;
 }
-#resetBtn {
-	display: none;
-	width: 10%;
-	height: 30px;
-	margin-top: 30px;
-	background: #fff;
-	border:none;
-	color: #333;
-	font-family: 'open sans', sans-serif;
-	font-weight: 700;
-	outline: none;
-	transition: background 0.1s ease-out;
-	cursor: pointer;
-}
 #submitBtn:hover {
 	background: none;
 	border: 1px solid #fff;
